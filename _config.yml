@@ -18,9 +18,9 @@ email: paulwallingford@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Test site for incisively
 baseurl: "/incisively-test" # the subpath of your site, e.g. /blog
-url: "https://wallingford.github.io/incisively-test" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  wallingford
+url: "https://wallingford.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: incisivelyltd
+github_username:  incisively
 
 # Build settings
 markdown: kramdown

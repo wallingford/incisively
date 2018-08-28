@@ -1,15 +1,10 @@
+<script src="//cdn.preprod.incisive.ly/incisively.min.js"></script>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type = 'text/javascript'>
 
-var incisively = new Incisively(6000018);
+var incisively = new Incisively(6000018, 'preprod.incisive.ly', 'preprod.incisive.ly');
 
-// Fetch suggestion from Incisively for this lab
-incisively.suggest({
-  lab: 'f0329166-464c-419d-7ae7-c29b4e002bd5',
-  segment: null,
-  success: function(suggestion) {
-    console.log(suggestion.content);
-  }
-});
+var baseurl = '/incisively-test'
 
 // Send reward to Incisively once the user has completed a purchase
 function rewardExperiment(basketValue) {
@@ -19,6 +14,7 @@ function rewardExperiment(basketValue) {
       value: basketValue
     }
   });
+  alert('Congrats! You just rewarded ' + basketValue);
 }
 
 </script>
