@@ -4,7 +4,8 @@ title: Promo 1
 permalink: /promo1/
 ---
 
-## promo1
+## Free Beer
+
 
 {% include snippet_include.html %}
 
