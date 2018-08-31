@@ -5,16 +5,24 @@
 var incisively = new Incisively(6000018, null, 'preprod.incisive.ly');
 
 var baseurl = '/incisively-test'
+var rewarded = false;
 
 // Send reward to Incisively once the user has completed a purchase
 function rewardExperiment(basketValue) {
+  rewarded = false;
   incisively.reward({
     lab: 'f0329166-464c-419d-7ae7-c29b4e002bd5',
     context: { // You only need this for real value experiments
       value: basketValue
-    }
+    },
+	callback: function(){
+		alert('Congrats! Your reward was sent :) ');
+		rewarded = true;
+	}
   });
-  alert('Congrats! You just rewarded ' + basketValue);
+  if(rewarded == false){
+	  alert('Looks like the reward function might have failed :( ');
+  }
   return false;
 }
 
