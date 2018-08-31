@@ -4,16 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is a test site for incisively pre-prod env 
-
-[incisively-preprod]: https://app.preprod.incisive.ly
+This is a test site for the [incisively preprod env](https://app.preprod.incisive.ly)
 
 it uses the account 6000018
 
 if you want to fork this, go ahead, just change the `_config.yml` file: 
 baseurl:
 url: 
-twitter_username: incisivelyltd
-github_username:  incisively
+twitter_username: 
+github_username: 
 
-Start here : {% post_url 2018-08-28-testing-snippet %}
+Start here:  
+[Live test of a Real Value Optimisation Lab]({{ site.baseurl }}{% link _posts/2018-08-28-testing-snippet.markdown %})

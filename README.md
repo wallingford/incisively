@@ -1,4 +1,4 @@
-https://wallingford.github.io/incisively-test/
+[To view the live site click here](https://wallingford.github.io/incisively-test/)
 
 ## Welcome to GitHub Pages
 
