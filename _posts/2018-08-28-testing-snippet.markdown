@@ -42,14 +42,15 @@ function deleteCookie(cname) {
 </script>
 
 
-incisively is currently suggesting:
-<a href='#' id='incisivelySuggestion'>
-</a> 
+**incisively is currently suggesting: <a href='#' id='incisivelySuggestion'></a>** 
 
-NOTE: url /incisively-test is hardcoded in the incisively.suggest function, this would need changing if deployed elsewhere
+NOTES: 
+at the time of creation incisively only supports one suggestion per browser session, meaning if you call suggest multiple times (EVEN AFTER YOU'VE REWARDED A VARIANT) you will still get the same suggestion.  Hitting the reward function again just results in nothing happening.
+
+url /incisively-test is hardcoded in the incisively.suggest function, this would need changing if deployed elsewhere
 
 
-Remove cookie (should give you a new promo):
+Remove cookie: should give you a new promo, although isn't working :(
 <form>
 <input value="Remove cookie" type="button" onClick="deleteCookies()"/>
 </form>

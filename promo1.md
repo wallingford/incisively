@@ -6,6 +6,7 @@ permalink: /promo1/
 
 ## Free Beer
 
+![Free beer - Yay]({{ "/assets/img/free_beer.jpeg" | absolute_url }})
 
 {% include snippet_include.html %}
 

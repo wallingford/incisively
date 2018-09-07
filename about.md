@@ -8,6 +8,8 @@ This is a test site for the [incisively preprod env](https://app.preprod.incisiv
 
 it uses the account 6000018
 
+it's recommended that you use [nyrooms](https://nyrooms.co.uk/) for testing as this is owned by alliants
+
 if you want to fork this, go ahead, just change the `_config.yml` file: 
 baseurl:
 url: 
