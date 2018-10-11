@@ -6,12 +6,13 @@ var incisively = new Incisively(6000015, null, 'preprod.incisive.ly');
 
 var baseurl = '/incisively-test'
 var rewarded = false;
+var labId = '05405172-39ea-4cbd-4562-ee74b7a37485'
 
 // Send reward to Incisively once the user has completed a purchase
 function rewardExperiment(basketValue) {
   rewarded = false;
   incisively.reward({
-    lab: '05405172-39ea-4cbd-4562-ee74b7a37485',
+    lab: labId,
     context: { // You only need this for real value experiments
       value: basketValue
     },

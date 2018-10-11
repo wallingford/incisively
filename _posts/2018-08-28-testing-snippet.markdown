@@ -13,7 +13,7 @@ permalink: /test-snippet
 <script type = 'text/javascript'>
 // Fetch suggestion from Incisively for this lab
 incisively.suggest({
-  lab: 'f0329166-464c-419d-7ae7-c29b4e002bd5',
+  lab: labId,
   segment: null,
   success: function(suggestion) {
     console.log(suggestion.content);
