@@ -49,6 +49,7 @@ at the time of creation incisively only supports one suggestion per browser sess
 
 url /incisively-test is hardcoded in the incisively.suggest function, this would need changing if deployed elsewhere
 
+This page has also been updated to cal the track() function.
 
 Remove cookie: should give you a new promo, although isn't working :(
 <form>
