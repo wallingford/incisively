@@ -25,4 +25,12 @@ function rewardExperiment(basketValue) {
   return false;
 }
 
+
+var siteUrl = window.location.href;
+
+incisively.track('promo_view', {
+  site_url: siteUrl,
+  labId: labId
+});
+
 </script>
