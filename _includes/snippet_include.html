@@ -1,12 +1,23 @@
-<script src="//cdn.preprod.incisive.ly/incisively.min.js"></script>
+<script src="//cdn.incisive.ly/incisively.min.js"></script>
 <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type = 'text/javascript'>
 
-var incisively = new Incisively(6000015, null, 'preprod.incisive.ly');
-
+// ^^^^^^ Make sure to change the script URL above ^^^^^^
+// var incisively = new Incisively(6000015, null, 'preprod.incisive.ly');
+// var incisively = new Incisively(6000013, null, 'dev.incisive.ly');
+//var incisively = new Incisively(6000003, null, 'staging.incisive.ly');
+var incisively = new Incisively(7270764, null);
+var incisively_url = "{{ page.incisively }}"
 var baseurl = '/incisively-test'
 var rewarded = false;
-var labId = '05405172-39ea-4cbd-4562-ee74b7a37485'
+// preprod.incisive.ly
+// var labId = '05405172-39ea-4cbd-4562-ee74b7a37485'
+// dev.incisive.ly
+// var labId = 'bf9ce485-799f-4739-40e2-b816c1183d8f'
+// staging.incisive.ly
+// var labId = 'fa0e65ef-2cca-4016-5774-f902cffabebd'
+// prod.incisive.ly
+var labId = 'cd05ff7e-56e7-4bb6-6e08-aa4a7a26291d'
 
 // Send reward to Incisively once the user has completed a purchase
 function rewardExperiment(basketValue) {

@@ -45,3 +45,4 @@ defaults:
       path: "assets/img"
     values:
       image: true
+      incisively: "preprod.incisive.ly"

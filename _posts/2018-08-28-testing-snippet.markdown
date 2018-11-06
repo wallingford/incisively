@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Testing snippet functionality"
+title:  "Test suggest/reward from snippet functionality"
 date:   2018-08-28 10:14:07 +0100
 categories: testing
 permalink: /test-snippet
@@ -49,7 +49,7 @@ at the time of creation incisively only supports one suggestion per browser sess
 
 url /incisively-test is hardcoded in the incisively.suggest function, this would need changing if deployed elsewhere
 
-This page has also been updated to cal the track() function.
+This page has also been updated to call the track() function to test the collect/analytics services.
 
 Remove cookie: should give you a new promo, although isn't working :(
 <form>
